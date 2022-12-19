@@ -1,0 +1,498 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital@0;1&display=swap');
+
+.container {
+    max-width: 1244px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Nunito Sans';
+    margin: 0;
+    background-color: #FFFFFF;
+}
+body * {
+    box-sizing: border-box;
+}
+
+section {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.description {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+}
+.change-color:hover {
+    color: #E3B873;
+}
+
+.yeseva-font {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+.nunito-font {
+    font-family: 'Nunito Sans';
+    font-style: italic;
+    font-weight: 400;
+}
+
+.button {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: center; 
+    box-shadow: 0px 5px 15 px rgba(227, 184, 115, 0.3);
+    border: 0;
+    background: #E3B873;
+    color: #FFFFFF;
+    outline: 0;
+    padding: 13px 26px;
+    width: 207px;
+    margin: 0 auto;
+    border-radius: 2px;
+
+}
+
+.button:hover {
+    border: 1px solid #FFFFFF;
+    background: transparent;
+
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.two-buttons {
+    width: 445px;
+    display: flex;
+}
+
+.phone-number {
+    color: #E3B873;
+    width: 100%;
+}
+
+.logo {
+    color: #E3B873;
+    text-align: left;
+}
+
+.header-footer {
+    background-color: #131313;
+}
+
+.header-content {
+    margin: 0px 90px 0px 92px;
+    display: flex;
+    justify-content: space-between;
+    width: 1256px;
+    height: 83px;
+    align-items: center;
+    font-size: 11px;
+}
+
+.header-navigation {
+    list-style: none;
+    display: flex;
+}
+
+.header-navigation__item {
+    margin-right: 47px;
+}
+
+.header-navigation__item a {
+    text-decoration: none;
+    color: white;
+}
+
+.hero {
+    background-image: url('../images/hero.jpg');
+    background-size: cover;
+    height: 707px;
+    padding-top: 194px;
+    position: relative;
+    background-size: cover;
+}
+
+.hero-overlay {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .7);
+}
+
+.hero-container {
+    margin: 0 auto;
+    padding: 19px 628px 208px 13px;
+    position: relative;
+    z-index: 1;
+}
+
+.title {
+    font-family: "YesevaOne-Regular";
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 40px;
+    line-height: 53px;
+    letter-spacing: 1px;
+    text-align: left;
+    margin: 0;
+    color: #FFFFFF;
+}
+
+.main-desc {
+    font-size: 22px;
+    line-height: 36px;
+    color: #FFFFFF;
+
+}
+
+.completed-projects {
+    background-color: #131313;
+    margin: -20px auto;
+    height: 1074px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: -1;
+
+}
+
+.description-box {
+    top: 107px;
+	bottom: 414px;
+	left: 135px;
+	right: 863px;  
+    margin: 0; 
+    width: 442px;
+    height: 552px;
+    position: absolute;  
+}
+
+.title-box {
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-start; 
+    margin: 69px 0 42px 0;
+}
+
+.title-projects {
+    color: #E3B873;
+    width: 253px;
+    font-size: 27px;
+    line-height: 37px;
+    letter-spacing: -0.07em;
+}
+
+.projects-desc {
+    width: 442px;
+    font-size: 14px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+.projects_items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 38px;
+}
+
+
+.pr-item {
+    width: 200px;
+    height: 73px;
+    margin: 0 0 34px 0;
+}
+
+.pr-headed {
+    color: #E3B873;
+    margin: 0;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 9px;
+}
+
+.pr-item-desc {
+    margin: 0;
+    color: #FFFFFF;
+}
+
+
+
+.image-nav_projects {  
+    top: 107px;
+	bottom: 414px;
+	left: 626px;
+	right: 135px; 
+    position: absolute; 
+    margin: 0;
+    width: 619px;  
+    height: 552px; 
+}
+
+.pr-nav {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: flex-start;
+    font-size: 14px;
+    line-height: 19px;   
+}
+
+.pr-nav-item a {
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.pr-image {
+    margin-top: 53px;
+}
+
+.types-0f-repair-section {
+    margin: 0;
+    height: 1640px;
+}
+
+.over-panel {
+    margin: -324px auto;
+    margin-bottom: 31px;
+    height: 1201px;
+    width: 818px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.online-control-title {
+    color: #FFFFFF;
+}
+.center-symbol-box {
+    
+}
+.center-symbol {
+    background: #E3B873;
+}
+
+.repair-video {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.video {
+    position: relative;
+    z-index: 1;
+}
+
+.video-overlay {
+    content: '';
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .7);
+}
+.play-button {
+    position: absolute;
+    z-index: 3;
+}
+.video-description {
+    width: 681px;
+    font-size: 18px;
+    line-height: 37px;
+    text-align: center;
+    color: #363636;
+}
+
+.agreement-container {
+    display:flex;
+    align-items: center;
+    /* margin-bottom: 147px; */
+}
+.agreement-text {
+    padding-left: 9px;
+}
+
+.client-contact-input {
+    width: 769px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.types-0f-repair {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.types-repair-options {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 700px;
+}
+
+.repair-desc-title {
+    padding: 25px 88px 0px 25px;
+    font-size: 18px;
+}
+
+.repair-option-item {
+    height: 608px;
+    width: 392px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+    margin: 0 30px 0;
+}
+
+.repair-image {
+    margin-bottom: 189px;
+    position: relative;
+    z-index: 1;
+    width: 392px;
+    height: 421px;
+}
+
+.repair-desc {
+    margin-left: 31px;
+    width: 330px;
+    height: 286px;
+    background-color: #FFFFFF;
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    /* padding: 0 31px 0; */
+}
+.repair-desc-list {
+    color: #959595;
+    font-size: 13px;
+    line-height: 27px;
+}
+    
+.repair-cost {
+    position: absolute;
+    z-index: 3;
+    margin-left: 31px;
+}
+
+.request-section {
+    margin: 0;
+    height: 967px;
+}
+.benefits {
+    width: 703px;
+    height: 645px;
+}
+
+.req-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.request-input {
+    width: 506px;
+    height: 717px;
+}
+
+.request-inp {
+    width: 408px;
+    height: 454px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#131313;
+}
+
+.input {
+    /* width: 231px; */
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    color:#363636;
+    ;
+
+}
+
+.input-box {
+    width: 231px;
+    margin: 0 auto;
+    color: #363636;
+}
+
+.contact-lab {
+    opacity: 50%
+}
+
+
+.label-input {
+    font-size: 13px;
+    line-height: 21px;
+}
+/* 
+.completed-works {
+    margin: 0 auto;
+    background-color: #131313;
+    width: 100%;
+    height: 1074px;
+}
+.works {
+    margin: 0 auto;
+    color: #FFFFFF;
+}
+.works-navigation {
+    font-family: 'Yeseva One';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.3);
+} */ 
+
+
+
+
+/*.completed-projects_items {
+    position: absolute;
+	top: 107px;
+	bottom: 414px;
+	left: 135px;
+	right: 135px;
+	margin: 0 auto;
+	width: 1171px;
+	height: 552px;
+     justify-content: center; 
+}
+*/
+/* .pr-nav-item {
+    margin: 0;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+} */
