@@ -103,3 +103,95 @@ body * {
     border: 1px solid #FFFFFF;
     background: transparent;
 }
+
+.hero {
+    background-image: url('../images/hero.jpg');
+    background-size: cover;
+    height: 707px;
+    position: relative;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-container {
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+    width: 1170px;
+    height: 479px;
+    display: flex;
+    align-items: center;
+}
+
+.hero-title-box {
+    width: 514px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 305px;
+    margin-bottom: 23px;
+}
+
+.title {
+    font-family: "YesevaOne-Regular";
+    font-style: normal;
+    font-size: 40px;
+    line-height: 53px;
+    text-align: left;
+    margin: 0;
+    color: #FFFFFF;
+}
+
+.title:hover {
+    color: #E3B873;
+}
+
+.main-desc {
+    font-size: 22px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+.description {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+}
+
+.two-buttons {
+    width: 434px;
+    display: flex;
+    justify-content: space-between;
+    height: 51px;
+}
+
+.hero-button {
+    font-size: 11px;
+    text-align: center;
+    padding: 18px 23px;
+    font-style: italic;
+    width: 207px;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.3);
+    border: 0;
+    border-radius: 2px;
+    background: #E3B873;
+    color: #FFFFFF;   
+}
+
+.hero-button:hover {
+    border: 1px solid #FFFFFF;
+    background: transparent;
+}
+
+.hero-overlay {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .7);
+}
