@@ -195,3 +195,141 @@ body * {
     bottom: 0;
     background-color: rgba(0, 0, 0, .7);
 }
+
+.completed-projects {
+    background-color: #131313;
+    margin: -20px auto;
+    height: 1074px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+.compl-projects {
+    display: flex;
+    margin-top: 107px;
+    justify-content: space-between;
+    width: 1171px ;
+}
+.description-box {
+    top: 107px;
+	bottom: 414px;
+	left: 135px;
+	right: 863px;  
+    margin: 0;
+}
+.title-box {
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-start; 
+    height: 186px;
+    margin: 69px 0 42px 0;
+}
+
+.title-projects {
+    color: #E3B873;
+    width: 253px;
+    font-size: 27px;
+    line-height: 37px;
+    letter-spacing: -0.07em;
+}
+
+.projects-desc {
+    width: 442px;
+    font-size: 14px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+.projects_items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 38px;
+}
+
+.pr-item {
+    width: 190px;
+    height: 73px;
+    margin: 0 0 34px 0;
+}
+
+.pr-headed {
+    color: #E3B873;
+    margin: 0;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 9px;
+}
+
+.pr-item-desc {
+    margin: 0;
+    color: #FFFFFF;
+    width: 187px;
+    font-family: 'Nunito Sans';
+}
+
+.arrow-symbol {
+    width: 164px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dot-symbol {
+    width: 10px;
+    height: 10px;;
+    border-radius: 30px;
+    display: flex;
+}
+
+.dot-symbol:hover {
+    background-color: #FFFFFF;
+}
+
+.image-nav_projects {  
+    top: 107px;
+	bottom: 414px;
+	left: 626px;
+	right: 135px; 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 0;    
+    height: 557px;
+}
+
+.pr-nav {
+    width: 679px;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-size: 14px;
+    line-height: 19px;   
+}
+
+.pr-nav-item a {
+    color: rgba(255, 255, 255, 0.3);
+    text-decoration: none;
+    
+}
+
+.change-color:hover {
+    color: #E3B873;
+}
+
+.add-border:hover {
+    border-bottom: 1px #E3B873 solid;
+}
+
+.yeseva-font {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+}
