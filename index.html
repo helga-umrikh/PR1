@@ -1,154 +1,523 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="./styles.css" />
-  </head>
-  <body>
-    <header class="header nunito-font">
-      <div class="header-box">
-        <div class="header-navigation-box">
-          <div class="logo">IC "REPAIR DESIGN PROJECT"</div>
-          <nav class="header-navigation">
-            <ul class="navigation-list">
-              <li class="navigation-item">
-                <a class="change-color-yellow" href="#">HOME</a>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+  <header class="header nunito-font">
+    <div class="header-box">
+      <div class="header-navigation-box">
+        <div class="logo">IC "REPAIR DESIGN PROJECT"</div>
+        <nav class="header-navigation">
+          <ul class="navigation-list">
+            <li class="navigation-item">
+              <a class="change-color-yellow" href="#">HOME</a>
+            </li>
+            <li class="navigation-item">
+              <a class="change-color-yellow" href="#">PROJECTS</a>
+            </li>
+            <li class="navigation-item">
+              <a class="change-color-yellow" href="#">MEASUREMENT</a>
+            </li>
+            <li class="navigation-item">
+              <a class="change-color-yellow" href="#">TEAM</a>
+            </li>
+            <li class="navigation-item">
+              <a class="change-color-yellow" href="#">REVIEWS</a>
+            </li>
+            <li class="navigation-item">
+              <a class="change-color-yellow" href="#">CONTACTS</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="phone-number">
+          <a class="phone-number" href="tel:+79287683239">+7(928) 768-32-39</a>
+        </div>
+      </div>
+      <button class="request-button">REQUEST A CALL</button>
+    </div>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="hero-container">
+        <div class="hero-title-box">
+          <h1 class="title change-color">
+            TURNKEY REPAIR IN THE CITY OF ROSTOV-ON-DON
+          </h1>
+          <p class="main-desc description">
+            Get ready-made turnkey repairs on time<br />
+            with work time saving up to 45 days and 20% from cost of materials
+            due to the organization of work
+          </p>
+          <div class="two-buttons">
+            <button class="hero-button button nunito-font">
+              CALCULATE THE COST
+            </button>
+            <button class="hero-button button nunito-font">
+              SUBMIT YOUR APPLICATION
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="hero-overlay"></div>
+    </section>
+    <section class="completed-projects">
+      <div class="compl-projects">
+        <div class="description-box">
+          <div class="title-box">
+            <div class="title-projects yeseva-font">COMPLETED PROJECTS</div>
+            <div class="projects-desc description">
+              <p>
+                Only a small part of the work performed by our company is
+                presented on the site. For 14 years on in the construction <br>
+                market we have made happy more than 1000 families
+              </p>
+            </div>
+          </div>
+          <div class="projects_items">
+            <div class="pr-item">
+              <h1 class="pr-headed yeseva-font">CITY:</h1>
+              <p class="pr-item-desc">Rostov-on-Don LCD admiral</p>
+            </div>
+            <div class="pr-item">
+              <h1 class="pr-headed yeseva-font">APARTMENT AREA:</h1>
+              <p class="pr-item-desc">81 m2</p>
+            </div>
+            <div class="pr-item">
+              <h1 class="pr-headed yeseva-font">REPAIR TIME:</h1>
+              <p class="pr-item-desc">3.5 months</p>
+            </div>
+            <div class="pr-item">
+              <h1 class="pr-headed yeseva-font">REPAIR COST:</h1>
+              <p class="pr-item-desc">Upon request</p>
+            </div>
+          </div>
+          <div class="arrow-symbol">
+            <img class="arrow-nav-symbol" src="../images//arrow_left.svg" alt="arrow left symbol" />
+            <div class="dot-symbols">
+              <div class="dot-symbol"><img src="../images/dot.svg" alt="dot symbol" /></div>
+              <div class="dot-symbol"><img src="../images/dot.svg" alt="dot symbol" /></div>
+              <div class="dot-symbol"><img src="../images/dot.svg" alt="dot symbol" /></div>
+            </div>
+            <img src="../images/arrow_right.svg" alt="arrow right symbol" />
+          </div>
+        </div>
+        <div class="image-nav_projects">
+          <nav class="projects-navigation">
+            <ul class="pr-nav yeseva-font">
+              <li class="pr-nav-item">
+                <a class="change-color add-border" href="#">ROSTOV-ON-DON, ADMIRAL</a>
               </li>
-              <li class="navigation-item">
-                <a class="change-color-yellow" href="#">PROJECTS</a>
+              <li class="pr-nav-item">
+                <a class="change-color add-border" href="#">SOCHI THIEVES</a>
               </li>
-              <li class="navigation-item">
-                <a class="change-color-yellow" href="#">MEASUREMENT</a>
-              </li>
-              <li class="navigation-item">
-                <a class="change-color-yellow" href="#">TEAM</a>
-              </li>
-              <li class="navigation-item">
-                <a class="change-color-yellow" href="#">REVIEWS</a>
-              </li>
-              <li class="navigation-item">
-                <a class="change-color-yellow" href="#">CONTACTS</a>
+              <li class="pr-nav-item">
+                <a class="change-color add-border" href="#">ROSTOV-ON-DON PATRIOTIC</a>
               </li>
             </ul>
           </nav>
-          <div class="phone-number">
-            <a class="phone-number" href="tel:+79287683239"
-              >+7(928) 768-32-39</a
-            >
+          <div class="projects-image">
+            <img class="pr-image" src="../images/interior-project.jpg" alt="interior loggia" />
           </div>
         </div>
-        <button class="request-button button">REQUEST A CALL</button>
       </div>
-    </header>
-    <main>
-      <section class="hero">
-        <div class="hero-container">
-          <div class="hero-title-box">
-            <h1 class="title change-color">
-              TURNKEY REPAIR IN THE CITY OF ROSTOV-ON-DON
-            </h1>
-            <p class="main-desc description">
-              Get ready-made turnkey repairs on time<br />
-              with work time saving up to 45 days and 20% from cost of materials
-              due to the organization of work
-            </p>
-            <div class="two-buttons">
-              <button class="hero-button button nunito-font">
-                CALCULATE THE COST
-              </button>
-              <button class="hero-button button nunito-font">
-                SUBMIT YOUR APPLICATION
-              </button>
+    </section>
+    <section class="types-0f-repair-section">
+      <div class="types-0f-repair">
+        <div class="over-panel">
+          <div class="repair-top-box">
+            <div class="online-control">
+              <div class="online-control-title yeseva-font">ONLINE CONTROL</div>
+              <div class="center-symbol-box">
+                <img class="center-symbol" src="../images/Rectangle 6.7.png" alt="rectangel symbol">
+                <img class="center-symbol" src="../images/camera.png" alt="camera symbol">
+                <img class="center-symbol" src="../images/Rectangle 6.7.png" alt="rectangel symbol">
+              </div>
+            </div>
+            <div class="repair-video">
+              <img class="video" src="../images/repair video.jpg" alt="repair video">
+              <div class="video-overlay"></div>
+              <img class="play-button" src="../images/play-button-symbol.svg" alt="play button symbol">
+            </div>
+          </div>
+          <div class="repair-middle-box">
+            <div class="center-symbol-box">
+              <img class="center-symbol" src="../images/Rectangle-long6.9.png" alt="long Rectangle">
+            </div>
+            <div class="video-description">
+              <p class="video-text description">At each facility, a camera is installed that broadcasts the progress of
+                work on the clock. At any time, you can go to our website and monitor the progress of work in your
+                apartment. You can watch the live broadcast from one of our facilities! <br>
+                Leave a request below and you will receive a link to the broadcast.</p>
+            </div>
+            <div class="input-container">
+              <div class="client-contact-input">
+                <div class="input-box">
+                  <label for="input" class="label-input contact-lab nunito-font">Name</label> <br>
+                  <input class="input sub-unpt nunito-font " type="text" name="Name" placeholder="What is your name:" />
+                </div>
+                <div class="input-box">
+                  <label for="input" class="label-input  contact-lab nunito-font">Phone</label> <br>
+                  <input class="input sub-unpt nunito-font" type="text" name="Phone" placeholder="Your phone number:" />
+                </div>
+                <button class="submit-button nunito-font">SUBMIT</button>
+              </div>
+              <div class="agreement-container">
+                <div class="ok-symbol-box">
+                  <div class="ok-box-white"><input class="checkbox-white" type="checkbox" /></div>
+                </div>
+                <label for="agreement" class="checkbox-agreement-text nunito-font black">I agree to the processing of
+                  personal data</label>
+              </div>
             </div>
           </div>
         </div>
-        <div class="hero-overlay"></div>
-      </section>
-      <section class="completed-projects">
-        <div class="compl-projects">
-          <div class="description-box">
-            <div class="title-box">
-              <div class="title-projects yeseva-font">COMPLETED PROJECTS</div>
-              <div class="projects-desc description">
-                <p>
-                  Only a small part of the work performed by our company is
-                  presented on the site. For 14 years on in the construction
-                  market we have made happy more than 1000 families
-                </p>
-              </div>
+    </section>
+    <section class="types-0f-repair-section-bottom">
+      <div class="repair-bottom-box">
+        <div class="types-of-repair-head">
+          <div class="repair-title yeseva-font">TYPES OF REPAIR</div>
+          <div class="center-symbol-box">
+            <img class="center-symbol" src="../images/Rectangle 6.7.png" alt="rectangel symbol">
+            <img class="center-symbol" src="../images/hammer.png" alt="hammer symbol">
+            <img class="center-symbol" src="../images/Rectangle 6.7.png" alt="rectangel symbol">
+          </div>
+        </div>
+        <div class="types-of-repair-options">
+          <div class="repair-option-item">
+            <div class="repair-image">
+              <img class="room-example" src="../images/blue-wall.jpg" alt="blue room wall">
             </div>
-            <div class="projects_items">
-              <div class="pr-item">
-                <h1 class="pr-headed yeseva-font">CITY:</h1>
-                <p class="pr-item-desc">Rostov-on-Don LCD admiral</p>
-              </div>
-              <div class="pr-item">
-                <h1 class="pr-headed yeseva-font">APARTMENT AREA:</h1>
-                <p class="pr-item-desc">81 m2</p>
-              </div>
-              <div class="pr-item">
-                <h1 class="pr-headed yeseva-font">REPAIR TIME:</h1>
-                <p class="pr-item-desc">3.5 months</p>
-              </div>
-              <div class="pr-item">
-                <h1 class="pr-headed yeseva-font">REPAIR COST:</h1>
-                <p class="pr-item-desc">Upon request</p>
-              </div>
+            <div class="repair-desc description">
+              <div class="repair-desc-title yeseva-font">Redecorating</div>
+              <ul class="repair-desc-list nunito-font">
+                <li class="room-list">Dismantling of old coatings</li>
+                <li class="room-list">Wallpapering</li>
+                <li class="room-list">Painting walls and ceilings</li>
+                <li class="room-list">Laying flooring</li>
+                <li class="room-list">Replacing plumbing</li>
+                <li class="room-list">Replacing sockets and switches</li>
+                <li class="room-list">Replacing doors</li>
+              </ul>
             </div>
-            <div class="arrow-symbol">
-              <img
-                class="arrow-nav-symbol"
-                src="../images//arrow_left.svg"
-                alt="arrow left symbol"
-              />
-              <div class="dot-symbol"><img
-                src="../images/dot.svg"
-                alt="dot symbol"
-              /></div>
-              <div class="dot-symbol"><img
-                src="../images/dot.svg"
-                alt="dot symbol"
-              /></div>
-              <div class="dot-symbol"><img
-                src="../images/dot.svg"
-                alt="dot symbol"
-              /></div>
-              <img
-                src="../images/arrow_right.svg"
-                alt="arrow right symbol"
-              />
+            <button class="repair-cost yeseva-font">FROM 900 RUB / M2</button>
+          </div>
+          <div class="repair-option-item">
+            <div class="repair-image">
+              <img class="room-example" src="../images/living-room.jpg" alt="living-room">
+            </div>
+            <div class="repair-desc description">
+              <div class="repair-desc-title yeseva-font">Overhaul</div>
+              <ul class="repair-desc-list">
+                <li class="room-list">Dismantling of old coatings</li>
+                <li class="room-list">Wallpapering</li>
+                <li class="room-list">Painting walls and ceilings</li>
+                <li class="room-list">Laying flooring</li>
+                <li class="room-list">Replacing plumbing</li>
+                <li class="room-list">Replacing sockets and switches</li>
+                <li class="room-list">Replacing doors</li>
+              </ul>
+            </div>
+            <button class="repair-cost yeseva-font">FROM 1800 RUB / M2</button>
+          </div>
+          <div class="repair-option-item">
+            <div class="repair-image">
+              <img class="room-example" src="../images/black-wall.jpg" alt="living room black wall">
+            </div>
+            <div class="repair-desc description">
+              <div class="repair-desc-title yeseva-font">Designer Repair</div>
+              <ul class="repair-desc-list">
+                <li class="room-list">Dismantling of old coatings</li>
+                <li class="room-list">Wallpapering</li>
+                <li class="room-list">Painting walls and ceilings</li>
+                <li class="room-list">Laying flooring</li>
+                <li class="room-list">Replacing plumbing</li>
+                <li class="room-list">Replacing sockets and switches</li>
+                <li class="room-list">Replacing doors</li>
+              </ul>
+            </div>
+            <button class="repair-cost yeseva-font">FROM 4000 RUB / M2</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="request-section">
+      <div class="req-section container">
+        <div class="benefits">
+          <div class="benefit-options">
+            <div class="benefit-option-item">
+              <div class="circle yeseva-font">01</div>
+              <p class="subtitle-benefit nunito-font">Our specialist will arrive for measurements per day<br>contact, or
+                appoint a date convenient for you</p>
+            </div>
+            <div class="benefit-option-item">
+              <div class="circle yeseva-font">02</div>
+              <p class="subtitle-benefit nunito-font">Free metering</p>
+            </div>
+            <div class="benefit-option-item">
+              <div class="circle yeseva-font">03</div>
+              <p class="subtitle-benefit nunito-font">Free consultation</p>
+            </div>
+            <div class="benefit-option-item">
+              <div class="circle yeseva-font">04</div>
+              <p class="subtitle-benefit nunito-font">Get a cost estimate and<br>
+                the timing of your future repairs</p>
             </div>
           </div>
-          <div class="image-nav_projects">
-            <nav class="projects-navigation">
-              <ul class="pr-nav yeseva-font">
-                <li class="pr-nav-item">
-                  <a class="change-color add-border" href="#"
-                    >ROSTOV-ON-DON, ADMIRAL</a>
+        </div>
+        <div class="request-input">
+          <div class="request-inp">
+            <div class="request-inp-desc description">
+              <p class="leave-request nunito-font">Leave a request for free
+                departure of the measurer</p>
+            </div>
+            <div class="input-request-container">
+              <div class="real-input">
+                <div class="request-input-rectangles">
+                  <div class="input-box-bottom">
+                    <label for="input" class="label-input-black nunito-font">Name</label> <br>
+                    <input class="input-bottom" type="text" name="Name" placeholder="What is your name:" />
+                  </div>
+                  <div class="input-box-bottom">
+                    <label for="input" class="label-input-black nunito-font">Phone</label> <br>
+                    <input class="input-bottom" type="text" name="Phone" placeholder="Your phone number:" />
+                  </div>
+                  <div class="input-box-bottom">
+                    <label for="input" class="label-input-black nunito-font">Email</label> <br>
+                    <input class="input-bottom" type="text" name="Email" placeholder="Your email:" />
+                  </div>
+                </div>
+                <div class="agreement-container">
+                  <div class="ok-symbol-box">
+                    <div class="ok-box-white"><input class="checkbox-white" type="checkbox"></div>
+                  </div>
+                  <label for="agreement" class="checkbox-agreement-text nunito-font white">I agree to the processing of
+                    personal data</label>
+                </div>
+              </div>
+              <button class="hero-button nunito-font">CALL THE MEASURER</button>
+            </div>
+          </div>
+          <div class="savings">
+            <div class="saving-logo">
+              <img src="../images/pig.svg" alt="pig and dollar symbol" class="pig-dollar-symbol">
+            </div>
+            <div class="saving-description">
+              <p class="saving-description-text nunito-font">Help save 10 - 20% of the
+                cost of materials</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="interiors-section">
+      <div class="interiors-section-container">
+        <div class="interior-navigation-box">
+          <div class="interior-navigation-title">
+            <h1 class="interior-title yeseva-font">WE REALIZE YOUR WILDEST FANTASIES</h1>
+          </div>
+          <div class="interior-navigation-container">
+            <nav class="interior-navigation">
+              <ul class="interior-navigation-list">
+                <li class="interior-navigation-item nunito-font">
+                  <a class="interior-navigation-item interior-navigation-item  change-color-yellow" href="#">American
+                    classic</a>
                 </li>
-                <li class="pr-nav-item">
-                  <a class="change-color add-border" href="#">SOCHI THIEVES</a>
+                <li class="interior-navigation-item nunito-font">
+                  <a class="interior-navigation-item  change-color-yellow" href="#">Empire</a>
                 </li>
-                <li class="pr-nav-item">
-                  <a class="change-color add-border" href="#"
-                    >ROSTOV-ON-DON PATRIOTIC</a
-                  >
+                <li class="interior-navigation-item nunito-font">
+                  <a class="interior-navigation-item  change-color-yellow" href="#">Classical</a>
+                </li>
+                <li class="interior-navigation-item nunito-font">
+                  <a class="interior-navigation-item  change-color-yellow" href="#">Loft</a>
+                </li>
+                <li class="interior-navigation-item nunito-font">
+                  <a class="interior-navigation-item  change-color-yellow" href="#">Minimalism</a>
+                </li>
+                <li class="interior-navigation-item nunito-font">
+                  <a class="interior-navigation-item  change-color-yellow" href="#">Provence</a>
+                </li>
+                <li class="interior-navigation-item nunito-font">
+                  <a class="interior-navigation-item  change-color-yellow" href="#">Romanticism</a>
+                </li>
+                <li class="interior-navigation-item nunito-font">
+                  <a class="interior-navigation-item  change-color-yellow" href="#">Scandinavian style</a>
+                </li>
+                <li class="interior-navigation-item nunito-font">
+                  <a class="interior-navigation-item  change-color-yellow" href="#">Mediterranean style</a>
+                </li>
+                <li class="interior-navigation-item nunito-font">
+                  <a class="interior-navigation-item  change-color-yellow" href="#">High tech</a>
+                </li>
+                <li class="interior-navigation-item nunito-font">
+                  <a class="interior-navigation-item  change-color-yellow" href="#">Eclecticism</a>
                 </li>
               </ul>
             </nav>
-            <div class="projects-image">
-              <img
-                class="pr-image"
-                src="../images/interior-project.jpg"
-                alt="interior loggia"
-              />
+          </div>
+        </div>
+        <div class="interior-images-box">
+          <div class="interior-images-container">
+            <div class="left-images-box">
+              <img src="../images/interior-top-left.jpg" alt="interior-image" class="top-left-image">
+              <img src="../images/interior-bottom-left.jpg" alt="interior-image" class="bottom-left-image">
+            </div>
+            <div class="right-images-box">
+              <img src="../images/interior-top-right.jpg" alt="interior-image" class="top-right-image">
+              <img src="../images/interior-bottom-right.jpg" alt="interior-image" class="bottom-right-image">
             </div>
           </div>
         </div>
-      </section>
-    </main>
-  </body>
+      </div>
+      <div class="interiors-overlay"></div>
+    </section>
+    <section class="our-clients-section">
+      <div class="our-clients-container">
+        <div class="our-clients-topbox">
+          <div class="our-clients-title-symbol-box">
+            <div class="our-clients-title">
+              <h1 class="our-clients-title-text yeseva-font">OUR CLIENTS</h1>
+            </div>
+            <div class="our-clients-symbol-box">
+              <img src="../images/Rectangle.svg" alt="rectangle symbol" class="our-clients-left-symbol">
+              <img src="../images/handshake.svg" alt="handshake symbol" class="our-clients-handshake-symbol">
+              <img src="../images/Rectangle.svg" alt="rectangle symbol" class="our-clients-right-symbol">
+            </div>
+          </div>
+          <div class="our-clients-slogan-box">
+            <p class="our-clients-slogan nunito-font">80% of our customers recommend us to their
+              friends and family.</p>
+          </div>
+        </div>
+        <div class="our-clients-people-boxes">
+          <div class="our-clients-people-box">
+            <div class="our-clients-people-card">
+              <div class="our-clients-people-profile">
+                <div class="our-clients-people-photo">
+                  <img src="../images/client-1.svg" alt="Client Fedosova Maria Konstantinovna" class="client-photo">
+                </div>
+                <div class="our-clients-people-name">
+                  <h1 class="client-name yeseva-font">Fedosova Maria
+                    Konstantinovna</h1>
+                </div>
+              </div>
+              <div class="our-clients-people-description">
+                <p class="our-clients-text nunito-font">
+                  I want to thank the guys for their work. We put your shower part in repair. I am very grateful that I
+                  referred to the repair as to my own. Great thanks I express the project
+                  to Georgia for its professionalism and approach.
+                </p>
+                <p class="our-clients-text nunito-font">
+                  The repair process was turned out in terms, faster than anticipated. Team mobile and professional.
+                  Works performed qualitatively without comments. Quality satisfied. Prices democratic. I recommend
+                  these masters.
+                </p>
+              </div>
+            </div>
+            <div class="client-button-box">
+              <button class="client-square-button">
+                <img src="../images/square-symbol.svg" alt="square symbol" class="square-symbol">
+                <span class="square-number yeseva-font">40 M2</span>
+              </button>
+              <button class="client-date-button">
+                <img src="../images/schedule-symbol.svg" alt="schedule-symbol" class="schedule-symbol">
+                <span class="date-text yeseva-font">48 days</span>
+              </button>
+            </div>
+          </div>
+          <div class="our-clients-people-box">
+            <div class="our-clients-people-card">
+              <div class="our-clients-people-profile">
+                <div class="our-clients-people-photo">
+                  <img src="../images/client-2.svg" alt="Client Fedosova Maria Konstantinovna" class="client-photo">
+                </div>
+                <div class="our-clients-people-name">
+                  <h1 class="client-name yeseva-font">Afanasyev Sergey Alexandrovich</h1>
+                </div>
+              </div>
+              <div class="our-clients-people-description">
+                <p class="our-clients-text nunito-font">
+                  I want to thank the guys for their work. We put your shower part in repair. I am very grateful that I
+                  referred to the repair as to my own. Great thanks I express the project
+                  to Georgia for its professionalism and approach.
+                </p>
+                <p class="our-clients-text nunito-font">
+                  The repair process was turned out in terms, faster than anticipated. Team mobile and professional.
+                  Works performed qualitatively without comments. Quality satisfied. Prices democratic. I recommend
+                  these masters.
+                </p>
+              </div>
+            </div>
+            <div class="client-button-box">
+              <button class="client-square-button">
+                <img src="../images/square-symbol.svg" alt="square symbol" class="square-symbol">
+                <span class="square-number yeseva-font">90 M2</span>
+              </button>
+              <button class="client-date-button">
+                <img src="../images/schedule-symbol.svg" alt="schedule-symbol" class="schedule-symbol">
+                <span class="date-text yeseva-font">128 days</span>
+              </button>
+            </div>
+          </div>
+          <div class="our-clients-people-box">
+            <div class="our-clients-people-card">
+              <div class="our-clients-people-profile">
+                <div class="our-clients-people-photo">
+                  <img src="../images/client-3.svg" alt="Client Fedosova Maria Konstantinovna" class="client-photo">
+                </div>
+                <div class="our-clients-people-name">
+                  <h1 class="client-name yeseva-font">Kiriev Egor Leonidovich</h1>
+                </div>
+              </div>
+              <div class="our-clients-people-description">
+                <p class="our-clients-text nunito-font">
+                  I want to thank the guys for their work. We put your shower part in repair. I am very grateful that I
+                  referred to the repair as to my own. Great thanks I express the project
+                  to Georgia for its professionalism and approach.
+                </p>
+                <p class="our-clients-text nunito-font">
+                  The repair process was turned out in terms, faster than anticipated. Team mobile and professional.
+                  Works performed qualitatively without comments. Quality satisfied. Prices democratic. I recommend
+                  these masters.
+                </p>
+              </div>
+            </div>
+            <div class="client-button-box">
+              <button class="client-square-button">
+                <img src="../images/square-symbol.svg" alt="square symbol" class="square-symbol">
+                <span class="square-number yeseva-font">56 M2</span>
+              </button>
+              <button class="client-date-button">
+                <img src="../images/schedule-symbol.svg" alt="schedule-symbol" class="schedule-symbol">
+                <span class="date-text yeseva-font">86 days</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="our-clients-city-image">
+        <div class="left-city-view">
+          <img src="../images/city-view.svg" alt="city view" class="city-view-left">
+        </div>
+        <div class="right-city-view">
+          <img src="../images/city-view.svg" alt="city view" class="city-view-right">
+        </div>
+      </div>
+    </section>
+    <section class="map-bottom-section">
+      <div class="map-bottom-container">
+
+      </div>
+      <div class="map-bottom-overlay"></div>
+    </section>
+  </main>
+</body>
+
 </html>
