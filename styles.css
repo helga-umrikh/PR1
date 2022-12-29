@@ -1837,11 +1837,14 @@ body * {
     }
 
     .input-bottom-name-and-phone {
-        width: 340px;
+        width: 100%;
         height: 156px;
         flex-direction: column;
         margin-bottom: 40px;
-        
+    }
+
+    .input-bottom-name-phone {
+        width: 100%;
     }
 
     .input-bottom-want-to-know {
